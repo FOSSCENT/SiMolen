@@ -10,21 +10,18 @@
         android:orientation="vertical"
         tools:layout_constraintTop_toTopOf="parent">
 
-        <!-- Tambahkan elemen EditText untuk username -->
         <EditText
             android:id="@+id/username_edit_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Username"/>
 
-        <!-- Tambahkan elemen EditText untuk email -->
         <EditText
             android:id="@+id/email_edit_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Email"/>
 
-        <!-- Tambahkan elemen EditText untuk password -->
         <EditText
             android:id="@+id/password_edit_text"
             android:layout_width="match_parent"
@@ -32,7 +29,6 @@
             android:hint="Password"
             android:inputType="textPassword"/>
 
-        <!-- Tambahkan elemen EditText untuk konfirmasi password -->
         <EditText
             android:id="@+id/confirm_password_edit_text"
             android:layout_width="match_parent"
@@ -40,14 +36,12 @@
             android:hint="Konfirmasi Password"
             android:inputType="textPassword"/>
 
-        <!-- Tambahkan tombol "Register" -->
         <Button
             android:id="@+id/register_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Register"/>
 
-        <!-- Tambahkan teks "Sudah memiliki akun? Login!" -->
         <TextView
             android:id="@+id/login_text_view"
             android:layout_width="match_parent"
